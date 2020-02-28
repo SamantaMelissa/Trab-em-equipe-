@@ -18,7 +18,13 @@
 .p_cards{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    padding: 40px;
+    margin-top: 20px;
+    padding: 30px 390px;
+    /* padding: 10px; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 100px; */
 }
 
 .artigos{
@@ -30,16 +36,30 @@
 }
 
 .artigo{
-    padding: 30px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .artigo h2{
     text-align: center;
     color: lightblue;
+    margin-top: 10px;
 }
 
 .artigo p{
     padding: 30px;
+    text-align: center;
+
+}
+
+.artigo img{
+    height: 200px;
+    width: 200px;
+    /* margin-left: 100px; */
+    margin: 0 auto;
+
 }
 
 
