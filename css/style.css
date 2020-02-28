@@ -2,3 +2,31 @@
     margin: 0;
     padding: 0;
 }
+
+/* CARDS */
+.cards h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* align-items: center; */
+}
+
+.p_cards{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.artigos{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.artigo{
+    padding: 30px;
+}
+
+.artigo h2{
+    text-align: center;
+}
