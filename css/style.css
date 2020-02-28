@@ -12,11 +12,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     /* align-items: center; */
+    color: lightblue;
 }
 
 .p_cards{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    padding: 40px;
 }
 
 .artigos{
@@ -33,4 +35,12 @@
 
 .artigo h2{
     text-align: center;
+    color: lightblue;
 }
+
+.artigo p{
+    padding: 30px;
+}
+
+
+/* CARDS FIM */
